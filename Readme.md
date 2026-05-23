@@ -7,6 +7,8 @@ La herramienta es sencilla, actúa como un modelo p2p, donde, el **CLIENTE** se 
 
 Cuando el paquete **ICMP** cumple con esas caracteristicas, guarda el campo de datos de el encapsulado **ICMP** en texto plano, para agarrarlo y ejecutarlo.
 
+Esto nos permite entre otras cosas poder ejecutar comandos sin que el firewall nos pueda llegar a bloquear ya que no analiza los datos de las cabeceras **ICMP**, a su vez, el protocolo no entabla conexiones, por lo tanto, no se puede analizar en herramientas como netstat o ss, esto nos muestra una ventaja grande en la postexplotacion frente al clasico reverse shell por tcp.
+
 
 ### Ejecución (solo sistemas linux)
 
