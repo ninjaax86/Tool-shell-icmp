@@ -6,7 +6,7 @@ Esta es una herramienta que hice con el fin de seguir aprendiendo, y porque tamb
 
 La herramienta es sencilla, actúa como un modelo cliente-servidor, donde, el **Sistema comprometido** se ejecuta y se queda **Escuchando** un paquete **ICMP** del **C2** con su respectivas características como el ID.
 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
 Figura 1-Diagrama ilustrativo.
 
 Cuando el paquete **ICMP** cumple con esas caracteristicas, guarda el campo de datos de el encapsulado **ICMP** en texto plano, para tomarlo y ejecutarlo localmente.
