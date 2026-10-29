@@ -1,7 +1,5 @@
 from scapy.all import *
-import time
-import subprocess
-import argparse
+import subprocess,sys,argparse
 
 interfaces = get_if_list()
 for i in interfaces:

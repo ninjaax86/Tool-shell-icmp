@@ -1,6 +1,7 @@
 from scapy.all import *
 import time
 import argparse
+import sys
 
 interfaces = get_if_list()
 for i in interfaces:
